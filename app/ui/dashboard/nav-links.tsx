@@ -14,7 +14,7 @@ const navLinks = [
   { name: "Home", href: "/dashboard", icon: HomeIcon },
   {
     name: "To-do's",
-    href: "/dashboard/todos",
+    href: "/dashboard/to-do",
     icon: DocumentCheckIcon,
   },
   {
