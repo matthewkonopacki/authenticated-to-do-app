@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className}  bg-base-100`}>{children}</body>
+      <body className={`${roboto.className} `}>{children}</body>
     </html>
   );
 }

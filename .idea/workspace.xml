@@ -5,14 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39f08b91-f890-4d93-a65d-4af699244945" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/dashboard/to-do/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/create-to-do-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/definitions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/to-do/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/to-do-list/delete-todo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/to-do-list/edit-to-do-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/to-do-list/edit-to-do.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/to-do-list/to-do-description.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/to-do-list/to-do-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/to-do-list/to-do-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/to-do-list/to-do-view.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ui/dashboard/nav-links.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/dashboard/nav-links.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/account/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/to-do/account/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/to-do/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/to-do/to-do/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/to-do/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/dashboard/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/to-do-list/logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/dashboard/nav-link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/to-do-list/nav-link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/dashboard/nav-links.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/to-do-list/nav-links.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/dashboard/sidenav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/to-do-list/sidenav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/create-to-do-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/create-tables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,11 +104,23 @@
       <option name="presentableId" value="Default" />
       <updated>1714932702975</updated>
       <workItem from="1714932704027" duration="488000" />
-      <workItem from="1714933272829" duration="28970000" />
+      <workItem from="1714933272829" duration="59865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/ui/to-do-list/edit-to-do-form.tsx</url>
+          <line>33</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

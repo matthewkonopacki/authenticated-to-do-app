@@ -6,20 +6,20 @@ import {
   UserIcon,
   DocumentCheckIcon,
 } from "@heroicons/react/24/outline";
-import NavLink from "@/app/ui/dashboard/nav-link";
+import NavLink from "@/app/ui/to-do-list/nav-link";
 import React from "react";
-import Logo from "@/app/ui/dashboard/logo";
+import Logo from "@/app/ui/to-do-list/logo";
 
 const navLinks = [
-  { name: "Home", href: "/dashboard", icon: HomeIcon },
+  { name: "Home", href: "/to-do-list", icon: HomeIcon },
   {
     name: "To-do's",
-    href: "/dashboard/to-do",
+    href: "/to-do-list/to-do",
     icon: DocumentCheckIcon,
   },
   {
     name: "Account",
-    href: "/dashboard/account",
+    href: "/to-do-list/account",
     icon: UserIcon,
   },
 ];

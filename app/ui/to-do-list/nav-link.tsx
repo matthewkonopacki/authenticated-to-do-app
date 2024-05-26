@@ -8,12 +8,9 @@ export default function NavLink(props: {
 }) {
   const LinkIcon = props.icon;
   return (
-    <Link
-      href={props.href}
-      className="flex items-center pl-7 gap-1.5 h-14 w-full rounded-md bg-background-100 hover:bg-highlight-100 hover:text-text-200"
-    >
+    <a href={props.href} className="btn">
       {LinkIcon != null ? <LinkIcon className="w-6"></LinkIcon> : ""}
       <p className="">{props.name}</p>
-    </Link>
+    </a>
   );
 }
